@@ -1,0 +1,5 @@
+<% password_digest = BCrypt::Password.create("password") %>
+
+37signals:
+  user: zach
+  url: https://dev.37signals.com/feed/posts.xml

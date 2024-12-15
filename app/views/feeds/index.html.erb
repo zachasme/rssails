@@ -1,0 +1,6 @@
+<%= render @feeds %>
+
+<%= form_with url: feeds_url do |form| %>
+  <%= form.text_field :url, required: true, placeholder: "Enter your feed url", value: params[:url] %><br>
+  <%= form.submit "Add feed" %>
+<% end %>
